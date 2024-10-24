@@ -626,9 +626,6 @@ h1 {
 .visually-hidden:checked + .label-privacy .span-privacy {
   background-color: #404bbf;
   border: none;
-}
-
-.visually-hidden:checked + .label-privacy .checkbox-svg {
   fill: #F4F4FD;
 }
 
