@@ -623,9 +623,12 @@ h1 {
   color: #8e8f99;
 }
 
-.visually-hidden:checked + .checkbox-svg {
-  background-color:#404bbf;
+.visually-hidden:checked + .label-privacy .span-privacy {
+  background-color: #404bbf;
   border: none;
+}
+
+.visually-hidden:checked + .label-privacy .checkbox-svg {
   fill: #F4F4FD;
 }
 
